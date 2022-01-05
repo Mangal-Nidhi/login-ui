@@ -46,9 +46,6 @@ class Login extends React.Component {
     render() {
   	    return (
             <div id="content">
-            <div style={{width: "50%" , float: "left", alignItems: "flex-start"}}>
-                <img alt="" src="https://www.publicissapient.com/content/dam/ps-rebrand/brand/ps-share.jpg" height={700} width={700}/>
-            </div>
             <div style={{width: "40%" , float: "right", margin: "auto", marginTop: "200px", alignItems: "flex-start"}}>
                 <h1 >Sign in</h1>
                 <form onSubmit={this.handleLogin}>
@@ -80,7 +77,7 @@ class Login extends React.Component {
                         </table>
                 </form>
                 <br/>
-                <h1>New to Publicis Sapient?<Link to="/Signup">Sign Up</Link></h1>
+                <h1>New to earth.com ?<Link to="/Signup">Sign Up</Link></h1>
                 <div>{this.state.result}</div>
     	    </div>
             </div>
