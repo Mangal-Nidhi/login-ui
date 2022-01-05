@@ -53,9 +53,6 @@ class Signup extends React.Component {
     render() {
   	    return (
         	<div id="content">
-                <div style={{width: "50%" , float: "left"}}>
-                    <img src="https://www.publicissapient.com/content/dam/ps-rebrand/brand/ps-share.jpg" height={700} width={700}/>
-                </div>
                 <div style={{width: "40%" , float: "right", margin: "auto", marginTop: "200px"}}>
                     <form method="POST" onSubmit={this.handleRegister}>
                     <table><tbody>
